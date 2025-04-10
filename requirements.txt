@@ -3,3 +3,7 @@ streamlit
 pandas
 numpy
 plotly
+folium
+Pillow
+rasterio
+streamlit-folium

@@ -3,6 +3,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import folium
+from folium import raster_layers
+import rasterio
+from io import BytesIO
+from PIL import Image
+from streamlit_folium import st_folium
 
 # Fonction pour générer des données fictives
 def generate_fake_data():
